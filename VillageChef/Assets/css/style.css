@@ -1,0 +1,60 @@
+:root {
+    --primary: #F7B41A;
+    --secondary: #181818;
+    --macdonald:#FFFF00;
+    --fourth: white;
+}
+
+body {
+    background-color: var(--secondary);
+}
+
+.h-heading {
+    font-family: "Contrail One";
+}
+
+.h-heading span {
+    color: var(--primary);
+}
+
+.btn-primary {
+
+    --bs-btn-bg:var(--primary);
+    --bs-btn-border-color:var(--primary);
+
+    --bs-btn-hover-bg:var(--macdonald);
+    --bs-btn-hover-border-color:var(--macdonald);
+
+    --bs-btn-active-bg:var(--macdonald);
+    --bs-btn-active-border-color:var(--macdonald);
+    
+    /* background-color: var(--primary);
+    border: var(--primary); */
+}
+.h-logo{
+    width: 100px;
+}
+
+.second{
+    left:75px;
+}
+.third{
+    left:150px;
+}
+.frame{
+    margin-left: 275px;
+}
+/* .customers{
+    color: var(--fourth);
+    margin-left: 275px;
+} 
+
+/* .btn:hover {
+    background-color: var(--primary);
+    border: var(--primary);
+}
+
+.btn:active {
+    background-color: var(--macdonald) !important;
+    border: var(--macdonald) !important;
+} */
